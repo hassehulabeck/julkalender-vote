@@ -26,7 +26,7 @@ spl_autoload_register(function ($class_name) {
 		<meta charset = 'UTF-8'>
 		<meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
 			<meta name = 'viewport' content = 'width=device-width, initial-scale=1'>
-		<title>TomteGo - Julkalender 2016</title>
+		<title>TomteGo - Julkalender 2017</title>
 		<link href = 'https://fonts.googleapis.com/css?family=Roboto' rel = 'stylesheet' type='text/css'>
 		<link rel = 'stylesheet' type = 'text/css' href = 'css/julkalender.css'>
 	</head>
@@ -57,16 +57,16 @@ spl_autoload_register(function ($class_name) {
 
 			<?php 
 
-				if (date("Y-m-d") < "2016-12-01") {
+				if (date("Y-m-d") < "2018-12-01") {
 					if ($_GET['sida'] == 'regler') {				
 						include_once "regler.php";		
 					}
 					else {			
 						echo "<section id = 'notOpenText'><h1>Snart...</h1>";
-						echo "<p>Julkalendern startar torsdag den första december.</p></section>";
+						echo "<p>Julkalendern startar fredag den första december.</p></section>";
 					}
 				}
-				elseif (date("Y-m-d") > "2016-12-24") {
+				elseif (date("Y-m-d") > "2018-12-24") {
 					if ($_GET['sida'] == 'list') {				
 						include_once "tabell.php";		
 					}
@@ -170,7 +170,7 @@ spl_autoload_register(function ($class_name) {
 						-->
 					</section>
 					<section id = 'aktuellShortlistExplanation'>
-						<p>Här ser du din aktuella korta önskelista. En fylld lista är värd 1 poäng.</span></p>
+						<p>Här ser du din aktuella korta önskelista. En fylld lista är värd 1 poäng.</p>
 					</section>
 
 					<section id = 'aktuellWishlist'>
@@ -184,7 +184,7 @@ spl_autoload_register(function ($class_name) {
 						<div><i class = 'fa fa-heart fa-2x'></i></div> -->
 					</section>
 					<section id = 'aktuellWishlistExplanation'>
-						<p>Här ser du din aktuella långa önskelista. En fylld lista är värd 4 poäng.</span></p>
+						<p>Här ser du din aktuella långa önskelista. En fylld lista är värd 4 poäng.</p>
 					</section>
 				</footer>
 

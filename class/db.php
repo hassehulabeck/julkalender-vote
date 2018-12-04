@@ -1,10 +1,8 @@
 <?php
 // Uppgifter för databasuppkopplingen
-$host = 'localhost';
-$dbname = 'julkalender';
-$dbuser = 'euroSixten';
-$dbpass = '!that7:Null&0e';
-
-
+$host = 'DIN_SERVER';
+$dbname = 'DB_NAME';
+$dbuser = 'DB_USER';
+$dbpass = 'DB_PASSWORD';
 
 ?>
