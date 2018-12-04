@@ -39,4 +39,7 @@ Det innebär att det valet kan vara vilken som av de fyra gåvorna, men vi vet i
 <h2>Om applikationen</h2>
 <p>TomteGo är utvecklad av Hans Andersson på Hulabeck Mediabyrå och är uppbyggd medelst HTML, CSS, PHP, MySQL och Javascript. Den är främst anpassad för mobil användning, vilket kan göra att den ser lite tråkig ut på större skärmar.</p>
 <p>Om du vill ge plus eller minus, så hör gärna av dig till <a href = 'mailto:info@hulabeck.se'>info@hulabeck.se</a>.</p>
+<h3>Databas</h3>
+<p>Följ strukturen i .sql-filen som ligger med i repot.
+
 </section>
